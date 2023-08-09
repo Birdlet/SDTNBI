@@ -19,6 +19,23 @@ Zengrui Wu and others, SDTNBI: an integrated network and chemoinformatics tool f
 
 ### 使用接口预测
 
+```bash
+$ python predit.py -h
+usage: predit.py [-h] (-smi SMI | -txt TXT) -t T [-o O] [-db {chembl,drugbank}] [-v]
+
+SDTNBI: an integrated network and chemoinformatics tool for systematic prediction of drug–target interactions and drug
+repositioning
+
+options:
+  -h, --help            show this help message and exit
+  -smi SMI              molecule in smiles format
+  -txt TXT              molecule in smiles list text
+  -t T                  target Uniprot ID
+  -o O                  Output file
+  -db {chembl,drugbank}
+                        database
+  -v                    print more logs
+```
 
 ### 载入默认网络并预测
 
